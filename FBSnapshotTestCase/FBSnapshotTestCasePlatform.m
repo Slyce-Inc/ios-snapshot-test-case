@@ -35,8 +35,7 @@ NSOrderedSet *FBSnapshotTestCaseDefaultSuffixes(void)
 NSString *FBDeviceAgnosticNormalizedFileName(NSString *fileName)
 {
   UIDevice *device = [UIDevice currentDevice];
-  UIWindow *keyWindow = [[UIApplication sharedApplication] fb_strictKeyWindow];
-  CGSize screenSize = keyWindow.bounds.size;
+  CGSize screenSize = [UIScreen mainScreen].bounds.size;
   NSString *os = device.systemVersion;
   
   fileName = [NSString stringWithFormat:@"%@_%@%@_%.0fx%.0f", fileName, device.model, os, screenSize.width, screenSize.height];
