@@ -45,7 +45,7 @@
 		B32447DC1AB78B5E00B1D6FF /* square_with_text.png in Resources */ = {isa = PBXBuildFile; fileRef = B32447D91AB78B5E00B1D6FF /* square_with_text.png */; };
 		B32447DD1AB78B5E00B1D6FF /* square-copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B32447DA1AB78B5E00B1D6FF /* square-copy.png */; };
 		B32447DE1AB78B5E00B1D6FF /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = B32447DB1AB78B5E00B1D6FF /* square.png */; };
-		B39138D82333D6FA00CB2E4C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39138D72333D6FA00CB2E4C /* XCTest.framework */; platformFilter = ios; };
+		B39138DA2333D80900CB2E4C /* libswiftXCTest.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B39138D92333D80900CB2E4C /* libswiftXCTest.tbd */; platformFilter = ios; };
 		B76C68291C6BD6D200586E5B /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = B76C68271C6BD68100586E5B /* rect.png */; };
 		B76C682A1C6BD6D500586E5B /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = B76C68271C6BD68100586E5B /* rect.png */; };
 		BC45D5211C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BC45D51F1C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.h */; };
@@ -95,6 +95,7 @@
 		B32447DA1AB78B5E00B1D6FF /* square-copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-copy.png"; sourceTree = "<group>"; };
 		B32447DB1AB78B5E00B1D6FF /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
 		B39138D72333D6FA00CB2E4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B39138D92333D80900CB2E4C /* libswiftXCTest.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftXCTest.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/libswiftXCTest.tbd; sourceTree = DEVELOPER_DIR; };
 		B76C68271C6BD68100586E5B /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
 		BC45D51F1C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		BC45D5201C2AEFCE007C72F3 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -122,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39138D82333D6FA00CB2E4C /* XCTest.framework in Frameworks */,
+				B39138DA2333D80900CB2E4C /* libswiftXCTest.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +227,7 @@
 		B39138D62333D6FA00CB2E4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B39138D92333D80900CB2E4C /* libswiftXCTest.tbd */,
 				B39138D72333D6FA00CB2E4C /* XCTest.framework */,
 			);
 			name = Frameworks;
