@@ -698,11 +698,6 @@
 				INFOPLIST_FILE = "FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SKIP_INSTALL = YES;
@@ -725,11 +720,6 @@
 				INFOPLIST_FILE = "FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-framework",
-					XCTest,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.facebook.FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
 				SKIP_INSTALL = YES;
